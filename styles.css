@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #f2f2f2;
+    font-weight:100rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+select, input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: #444;
+    color: white;
+}
+
+button {
+    background-color: #258fd6;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #0f649c;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+.output h3 {
+    margin-top: 0;
+    color: #ccc;
+}
+
+.output ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.output li {
+    background: #444;
+    padding: 10px;
+    border: 1px solid #555;
+    margin: 5px 0;
+}
+
+.output .error {
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Suggestion App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Career Suggestion App</h1>
+        <img src="career-progression-silhouettes-h9mk9armlef0wirv.png" alt="Career Image" class="hero-image">
+
+      
+        <form id="careerForm">
+            <label for="qualification">Qualification:</label>
+            <select id="qualification">
+                <option value="highschool">High School</option>
+                <option value="bachelor">Bachelor's</option>
+                <option value="mastersPhd">Master's/Ph.D.</option>
+            </select>
+
+            <label for="interest">Career Interest:</label>
+            <select id="interest">
+                <option value="biology">Biology</option>
+                <option value="business">Business</option>
+                <option value="commerce">Commerce</option>
+                <option value="writer">Writer</option>
+                <option value="astronomy">Astronomy</option>
+                <option value="computerScience">Computer Science</option>
+            </select>
+
+            <button type="submit">Get Career Route</button>
+        </form>
+
+        <div class="output" id="careerOutput"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
